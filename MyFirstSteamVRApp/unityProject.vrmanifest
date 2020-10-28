@@ -1,0 +1,16 @@
+{
+  "source": "Unity",
+  "applications": [
+    {
+      "app_key": "application.generated.unity.myfirstxrtoolkitapp.exe",
+      "launch_type": "url",
+      "url": "steam://launch/",
+      "action_manifest_path": "D:\\PersonalProject\\MyFirstSteamVRApp\\Assets\\StreamingAssets\\SteamVR\\actions.json",
+      "strings": {
+        "en_us": {
+          "name": "MyFirstXRToolKitApp [Testing]"
+        }
+      }
+    }
+  ]
+}
