@@ -7167,6 +7167,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Teleportation Reticle
       objectReference: {fileID: 0}
+    - target: {fileID: 5420525977746083323, guid: f9df4faad0ad11a4598e3cd81d38b3bd,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5420525977746083324, guid: f9df4faad0ad11a4598e3cd81d38b3bd,
         type: 3}
       propertyPath: m_LocalPosition.x

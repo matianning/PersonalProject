@@ -17,10 +17,7 @@ public class LocomotionController : MonoBehaviour
     public XRRayInteractor leftInteractorRay;
     public XRRayInteractor rightInteractorRay;
     
-
-
-
-    // Update is called once per frame
+    
     void Update()
     {
 
@@ -33,14 +30,14 @@ public class LocomotionController : MonoBehaviour
         
         if (leftTeleportRay)
         {
-            bool isLeftInteractorRayHovering = leftInteractorRay.TryGetHitInfo(ref pos, ref norm, ref index, ref validTarget);
+            bool isLeftInteractorRayHovering = leftInteractorRay.TryGetHitInfo(out pos, out norm, out index, out validTarget);
             leftTeleportRay.gameObject.SetActive(EnableLeftTeleport && CheckIfActivated(leftTeleportRay) && !isLeftInteractorRayHovering);
         }
         
 
         if (rightTeleportRay)
         {
-            bool isRightInteractorRayHovering = rightInteractorRay.TryGetHitInfo(ref pos, ref norm, ref index, ref validTarget);
+            bool isRightInteractorRayHovering = rightInteractorRay.TryGetHitInfo(out pos, out norm, out index, out validTarget);
             rightTeleportRay.gameObject.SetActive(EnableRightTeleport && CheckIfActivated(rightTeleportRay) && !isRightInteractorRayHovering);
         }
     }
