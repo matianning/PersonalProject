@@ -3,7 +3,11 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Weapon
+  - Bullet
+  - Enemie
+  - Ennemie
   layers:
   - Default
   - TransparentFX
@@ -17,8 +21,8 @@ TagManager:
   - Ground
   - Body
   - Grab Ignore Ray
-  - 
-  - 
+  - Glow
+  - Weapon
   - 
   - 
   - 
